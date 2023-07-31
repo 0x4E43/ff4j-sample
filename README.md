@@ -19,16 +19,16 @@ Let's Understand chronology
 ##Solution
 For the solution we have several library is there, I went with **FF4J**(Feature Flag for java). Below are the Code Snippet with Explanation.
 
-#####1. Head to [Spring Intializer](https://start.spring.io/) and create a starter spring boot project.
+##### 1. Head to [Spring Intializer](https://start.spring.io/) and create a starter spring boot project.
 > I don't give a sh*t about which version you are using, But if you are using Spring Boot 3.x you have to use Java 17 or above. Gradle or Maven? I don't care. I went with Gradle.
-#####2. Inject the following line to your dependency for gradle.
+##### 2. Inject the following line to your dependency for gradle.
 `implementation 'org.ff4j:ff4j-core:2.0.0'`.
 > If you are using maven, go to [Maven Central Repository](https://mvnrepository.com/artifact/org.ff4j/ff4j-core) and find your own dependency,
 
-#####3. Create A Java configuration something like FF4JConfig or whatever the f*ck you want.
+##### 3. Create A Java configuration something like FF4JConfig or whatever the f*ck you want.
 > Where to create? This piece of sh*t is not for you.
 
-#####4. Add the following lines.
+##### 4. Add the following lines.
 
 ```
 @Configuration //This piece of shit will tell spring boot that this is a configuration class
